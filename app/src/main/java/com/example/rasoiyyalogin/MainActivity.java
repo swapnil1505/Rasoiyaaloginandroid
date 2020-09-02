@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 if(response.isSuccessful())
                 {
                     ResObj resobj = (ResObj) response.body();
-                    if(resobj.getMessage().equals("true"))
+                    if(resobj.getData().getStatus().equals("Active"))
                     {
                         //login start main activity
                         Intent intent = new Intent(MainActivity.this, LoginActivity.class);
