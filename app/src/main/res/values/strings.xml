@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Rasoiyyalogin</string>
+    <string name="user">User Name</string>
+    <string name="userenter">Enter Username Or mobile no</string>
+    <string name="pass">Password</string>
+    <string name="Enterpass">Enter password</string>
+    <string name="withotp">Login with otp?</string>
+    <string name="loginin">Login</string>
+    <string name="Newuse">New User?</string>
+    <string name="Regis">SignUp</string>
+</resources>
